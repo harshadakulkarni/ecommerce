@@ -13,6 +13,11 @@ public class ProductController {
 
     private final ProductService productService;
 
+    @GetMapping
+    public String hello() {
+        return "Hello from Product Service!";
+    }
+
     public ProductController(ProductService productService) {
         this.productService = productService;
     }
