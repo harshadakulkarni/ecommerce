@@ -29,7 +29,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: 'Hello'
           environment_name: 'Hello-env'
-          version_label: ${{ github.sha }}-${{ github.run_number }}
+          version_label: ${{ github.run_number }}
 
           region: ap-southeast-1
           deployment_package: target/Hello-0.0.1-SNAPSHOT.jar
