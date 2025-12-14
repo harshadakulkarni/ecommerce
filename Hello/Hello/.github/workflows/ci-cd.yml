@@ -3,7 +3,7 @@ name: Deploy to Elastic Beanstalk
 on:
   push:
     branches:
-      - testPOC
+      - testpoc
 
 jobs:
   build-and-deploy:
