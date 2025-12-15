@@ -31,5 +31,5 @@ jobs:
           environment_name: 'Hello-env'
           version_label: ${{ github.run_number }}
 
-          region: ap-southeast-1
+          region: ap-south-1
           deployment_package: target/Hello-0.0.1-SNAPSHOT.jar
