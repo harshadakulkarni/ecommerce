@@ -1,4 +1,4 @@
-name: Deploy to Elastic Beanstalk
+name: Deploy Product to Elastic Beanstalk
 
 on:
   push:
