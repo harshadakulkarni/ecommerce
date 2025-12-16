@@ -27,8 +27,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: 'Hello'
-          environment_name: 'Hello-env'
+          application_name: 'ecommerce'
+          environment_name: 'ecommerce-env'
           version_label: ${{ github.run_number }}
 
           region: ap-south-1
