@@ -13,7 +13,7 @@ public class ProductController {
 
     private final ProductService productService;
 
-    @GetMapping
+    @GetMapping("/hello")
     public String hello() {
         return "Hello from Product Service!";
     }
@@ -22,7 +22,7 @@ public class ProductController {
         this.productService = productService;
     }
 
-    @GetMapping
+    @GetMapping("/productList")
     public List<Product> getAllProducts() {
         return productService.getAllProducts();
     }
